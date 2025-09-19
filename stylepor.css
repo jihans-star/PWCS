@@ -26,13 +26,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: -10px;
-        height: 450px;
-        background-color: beige;
+        margin-top: -5px;
+        height: 380px;
+        background-color: rgb(245, 245, 208);
     }
-    .row{
-        width: 20%;
-        background-color: aliceblue;
+    .contain1 .line{
+        width: 150px;
+        height: 2px;
+        background-color: rgb(6, 6, 66);
     }
     .contain1 img{
         margin-top: 20px;
@@ -40,8 +41,42 @@
         height: 165px;
         width: 165px;
     }
+    .contain1 h1{
+        color: rgb(6, 6, 66);
+
+    }
     .contain1 h4{
-        margin-top: 1px;
-        color: rgb(6, 6, 66);;
+        margin-top: 20px;
+        color: rgb(6, 6, 66);
+    }
+    .contain2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        background-color: rgba(245, 245, 220, 0.726);
+    }
+    .contain2 h2{
+        color: rgb(6, 6, 66);
+    }
+    .contain2 .baris1 img{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .contain2 .baris2 img{
+        margin-right: 20px;
+    }
+    .contain2 img{
+        width: 180px;
+        height: 120px;
+    }
+    .contain3 {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(245, 245, 208);
+        height: 400px;
+    }
+    .contain3 h2{
+        color: rgb(6, 6, 66);
     }
 }
